@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns00000100001" font="Lato" controllayout="npnxnanbsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
-    <layout name="pxabnsnfns00000100001" font="Lato" controllayout="pxabnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
-    <layout name="npxnabnsnfns00000100001" font="Lato" controllayout="npxnabnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
-    <layout name="npnxnanbnsnfns00000100001" font="Lato" controllayout="npnxnanbnsnfns00000100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
-    <layout name="pxabnsnfns00000100000" font="Lato" controllayout="pxabnsnfns00000100000" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
-    <layout name="pxabnsnfns00001100001" font="Lato" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00000100001" string_table="pxabnsnfns00000100001" />
+    <layout name="npnxnanbsnfns00000000001" font="Lato" controllayout="npnxnanbsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Lato" controllayout="pxabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Lato" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Lato" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Lato" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pxabnsnfns00001100001" font="Lato" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -75,7 +75,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
-          <option name="fullScreenToggle" value="true" />
+          <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
@@ -94,7 +94,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000100001">
+    <control_layout name="npnxnanbsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -104,12 +104,12 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -119,7 +119,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000100001">
+    <control_layout name="pxabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -129,12 +129,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -144,7 +144,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000100001">
+    <control_layout name="npxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -154,12 +154,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -169,7 +169,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000100001">
+    <control_layout name="npnxnanbnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -179,12 +179,12 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -194,7 +194,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000100000">
+    <control_layout name="pxabnsnfns00000000000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -204,12 +204,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -229,7 +229,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -246,7 +246,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00000100001">
+    <colorscheme name="pxabnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1423,7 +1423,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00000100001">
+    <string_table name="pxabnsnfns00000000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1589,7 +1589,7 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6FKKo5aNcDf" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6FKKo5aNcDf" displaytext="Language selection" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6FKKo5aNcDf.5kjfaLbaH2K" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
